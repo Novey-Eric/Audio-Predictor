@@ -8,7 +8,7 @@ For example a 1 bpm field will have a much longer prediction than a 100 bpm fiel
 The "epochs" field is the number of traning epochs that the neural network will go through. A higher number for bpm will likely require a higher number of training epochs because of the small size of the prediction.
 After the audio file starts playing, you can exit the program. It creates graphs of the predicted notes with timestamps as the name. This will be far more accurate than the real-time display.
 
-#Problems
+# Problems
 This project was a great way of learning more about fourier transforms and machine learning. Unfortunately, it seems this will likely not work very well for complex rhythms or really anything practical. I believe this comes down to the power of the fourier transform and the timeframe on which the operation occurs. I tried somewhat solving this problem using a bpm field but there probably needs to be a much more complex algorithm for when the transform occurs.
 Secondly, the visual display of the graph does not synch with the music, so instead I would recommend quitting the program after it starts playing and using the image files it creates with timestamps.
 Either way, I hope this helps someone :)
