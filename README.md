@@ -1,6 +1,8 @@
 # Audio-Predictor
 This program aims to use a machine learning algorithm to predict notes being played in an audio file. This project was just an introduction to machine learning and TensorFlow for myself. It is in no way a perfect program, but I think it gets the job done.
-#How to use
+# How to use
+First download the zip file and extract the "amalgum" and "env" folders into the same folder as this project.
+https://www.mediafire.com/file/i8v94n7xjxqyjt4/Archive.zip/file
 Run the AudioGraphics.py file using the "env" python environment
 Use the "open file" button to chose whichever file you want to learn the notes of.
 The bpm does not need to be exact, you can think of it as more of a field that indicates the length of each prediction.
